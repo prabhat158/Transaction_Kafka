@@ -1,0 +1,7 @@
+{"type": "record",
+ "name": "TxnRecord",
+ "fields": [
+     {"name": "session_id", "type": "string"},
+     {"name": "timestamp", "type": ["string", "null"],"default": "None"}
+ ]
+}
