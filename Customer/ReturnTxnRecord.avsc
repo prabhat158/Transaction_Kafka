@@ -1,0 +1,8 @@
+{"type": "record",
+ "name": "ReturnTxnRecord",
+ "fields": [
+     {"name": "session_id", "type": "string"},
+     {"name": "timestamp", "type": ["string", "null"],"default": "None"},
+     {"name": "status", "type": ["string", "null"],"default": "None"}
+ ]
+}
